@@ -107,3 +107,29 @@
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
 }
+/* Media Queries for Responsive Design */
+
+/* Tablets (300px and below) */
+@media screen and (max-width: 300px) {
+    .main_box {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .btn_one i {
+        font-size: 25px;
+        left: 10px;
+    }
+
+    .sidebar_menu {
+        width: 250px;
+    }
+
+    .sidebar_menu .btn_two i {
+        left: 225px;
+    }
+
+    .sidebar_menu .menu a {
+        font-size: 18px;
+    }
+}
